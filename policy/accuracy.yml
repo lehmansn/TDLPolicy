@@ -1,0 +1,7 @@
+name: accuracy
+description: Describes to accuracy of all published values of the topic
+policytype: message
+input:
+ - accuracy: number
+example:
+ - accuracy: 0.001
