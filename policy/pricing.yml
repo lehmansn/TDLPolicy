@@ -9,7 +9,7 @@ input:
  - values: int
  - values_interval: string
 example:
- - name: small_package
+ - name: small package
  - cost: 0.99
  - cost_timespan: month
  - currency: euro
