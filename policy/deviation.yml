@@ -1,0 +1,9 @@
+name: deviation
+description: Describes to deviation of the sensor values published to the topic
+policytype: message
+input:
+ - deviation: number
+ - unit: string
+example:
+ - deviation: 0.5
+ - unit: percent

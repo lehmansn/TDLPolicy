@@ -1,0 +1,9 @@
+name: reliability
+description: Defines the reliability of the topic
+policytype: topic
+input:
+ - reliability: number
+ - unit: string
+example:
+ - reliability: 99.95
+ - unit: percent
