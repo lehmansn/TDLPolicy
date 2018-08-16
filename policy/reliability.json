@@ -1,0 +1,15 @@
+{
+  "name": "reliability",
+  "description": "Defines the reliability of the topic",
+  "policytype": "topic",
+  "input": {
+    "name": "string",
+    "reliability": "number",
+    "unit": "string"
+  },
+  "example": {
+    "name": "topic reliability",
+    "reliability": 99.95,
+    "unit": "percent"
+  }
+}

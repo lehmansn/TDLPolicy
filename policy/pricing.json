@@ -1,0 +1,21 @@
+{
+  "name": "pricing",
+  "description": "Defines the costs to subsribe to this topic",
+  "policytype": "topic",
+  "input": {
+    "name": "string",
+    "cost": "number",
+    "cost_timespan": "string",
+    "currency": "string",
+    "values": "int",
+    "values_interval": "string"
+  },
+  "example": {
+    "name": "small package",
+    "cost": 0.99,
+    "cost_timespan": "month",
+    "currency": "euro",
+    "values": 24,
+    "values_interval": "day"
+  }
+}
