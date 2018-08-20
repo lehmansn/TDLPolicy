@@ -15,7 +15,7 @@ Example:
 ```
 {
   "name": "accuracy",
-  "description": "Describes to accuracy of all published values of the topic",
+  "description": "Describes the accuracy of all published values of the topic",
   "policytype": "message",
   "input": {
     "name": "string",
