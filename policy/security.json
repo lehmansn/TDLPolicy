@@ -1,0 +1,13 @@
+{
+  "name": "security",
+  "description": "Test Policy",
+  "policytype": "message",
+  "input": {
+    "name": "string",
+    "security": "string"
+  },
+  "example": {
+    "name": "RSA-Security",
+    "security": "RSA"
+  }
+}
