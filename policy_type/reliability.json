@@ -1,7 +1,7 @@
 {
-  "name": "reliability",
+  "policy_type": "reliability",
   "description": "Defines the reliability of the topic",
-  "policytype": "topic",
+  "policy_category": "topic",
   "input": {
     "name": "string",
     "reliability": "number",

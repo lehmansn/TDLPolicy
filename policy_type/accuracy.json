@@ -1,7 +1,7 @@
 {
-  "name": "accuracy",
+  "policy_type": "accuracy",
   "description": "Describes the accuracy of all published values of the topic",
-  "policytype": "message",
+  "policy_category": "message",
   "input": {
     "name": "string",
     "accuracy": "number"

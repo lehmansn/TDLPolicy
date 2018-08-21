@@ -5,18 +5,19 @@ To add new Policies into the TDL make a new file inside directory **policy**
 
 ## Structure of a Policy file
 
-* name: The name of this Policy
+* policy_type: The name of this Policy type
 * description: Descripe the use of your new Policy
-* policytype: [topic, message] Policy for the topic or Policy for the messaging, choose your category
+* policy_category: [topic, message] Policy for the topic or Policy for the messaging, choose your category
+* url(optional): An icon for this Policy type
 * input: Values a topic provider can define by itself
 * example: One example to explain your Policy
 
 Example: 
 ```
 {
-  "name": "accuracy",
+  "policy_type": "accuracy",
   "description": "Describes the accuracy of all published values of the topic",
-  "policytype": "message",
+  "policy_category": "message",
   "input": {
     "name": "string",
     "accuracy": "number"

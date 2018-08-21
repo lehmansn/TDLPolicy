@@ -1,7 +1,8 @@
 {
-  "name": "deviation",
+  "policy_type": "deviation",
   "description": "Describes to deviation of the sensor values published to the topic",
-  "policytype": "message",
+  "policy_category": "message",
+  "icon": "www.url-with-image.com",
   "input": {
     "name": "string",
     "deviation": "number",
