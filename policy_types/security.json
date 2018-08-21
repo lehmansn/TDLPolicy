@@ -1,7 +1,7 @@
 {
-  "name": "security",
+  "policy_type": "security",
   "description": "Test Policy",
-  "policytype": "message",
+  "policy_category": "message",
   "input": {
     "name": "string",
     "security": "string"
