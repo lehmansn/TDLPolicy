@@ -2,11 +2,23 @@
   "policy_type": "deviation",
   "description": "Describes to deviation of the sensor values published to the topic",
   "policy_category": "message",
-  "input": {
-    "name": "string",
-    "deviation": "number",
-    "unit": "string"
-  },
+  "input": [
+    {
+      "value": "name",
+      "datatype": "string",
+      "description": "Unique name of this policy"
+    },
+    {
+      "value": "deviation",
+      "datatype": "number",
+      "description": "Deviation of the topic values"
+    },
+    {
+      "value": "unit",
+      "datatype": "number",
+      "description": "Unit of the deviation value"
+    }
+  ],
   "example": {
     "name": "sensor deviation",
     "deviation": 0.5,
