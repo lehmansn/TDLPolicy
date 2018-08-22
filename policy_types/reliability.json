@@ -14,6 +14,11 @@
       "description": "Reliability of the topic"
     },
     {
+      "value": "test",
+      "datatype": "boolean",
+      "description": "Only for testing"
+    },
+    {
       "value": "unit",
       "datatype": "number",
       "description": "Unit of the reliability"
@@ -22,6 +27,7 @@
   "example": {
     "name": "topic reliability",
     "reliability": 99.95,
+    "test": true,
     "unit": "percent"
   }
 }
