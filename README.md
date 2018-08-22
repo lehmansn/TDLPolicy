@@ -18,10 +18,18 @@ Example:
   "policy_type": "accuracy",
   "description": "Describes the accuracy of all published values of the topic",
   "policy_category": "message",
-  "input": {
-    "name": "string",
-    "accuracy": "number"
-  },
+  "input": [
+    {
+      "value": "name",
+      "datatype": "string",
+      "description": "Unique name of this policy"
+    },
+    {
+      "value": "accuracy",
+      "datatype": "number",
+      "description": "Accuracy of the sensor publishing values to the topic"
+    }
+  ],
   "example": {
     "name": "accuracy",
     "accuracy": 0.001
