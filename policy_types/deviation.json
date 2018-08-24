@@ -15,7 +15,7 @@
     },
     {
       "value": "unit",
-      "datatype": "number",
+      "datatype": "string",
       "description": "Unit of the deviation value"
     }
   ],
