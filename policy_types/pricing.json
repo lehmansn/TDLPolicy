@@ -16,13 +16,24 @@
     },
     {
       "value": "currency",
-      "datatype": "string",
-      "description": "Currency of the costs"
+      "datatype": "enum",
+      "description": "Currency of the costs",
+      "enum": [
+        "euro",
+        "dollar"
+      ]
     },
     {
       "value": "cost_period",
-      "datatype": "string",
-      "description": "Period after which new payments have to be made"
+      "datatype": "enum",
+      "description": "Period after which new payments have to be made",
+      "enum": [
+        "once",
+        "day",
+        "month",
+        "quarter",
+        "year"
+      ]
     }
   ],
   "example": {
