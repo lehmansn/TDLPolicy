@@ -39,7 +39,7 @@
   "example": {
     "name": "small package",
     "cost": 0.99,
-    "cost_timespan": "month",
-    "currency": "euro"
+    "currency": "euro",
+    "cost_period": "month"
   }
 }
