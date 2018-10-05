@@ -1,0 +1,25 @@
+{
+  "policy_type": "authentication",
+  "description": "Defines type of authentication",
+  "policy_category": "topic",
+  "input": [
+    {
+      "value": "name",
+      "datatype": "string",
+      "description": "Unique name of this policy"
+    },
+    {
+      "value": "credentials",
+      "datatype": "enum",
+      "description": "Type of the credentials",
+      "enum": [
+        "token",
+        "username & password"
+      ]
+    }
+  ],
+  "example": {
+    "name": "authentication",
+    "credentials": "token"
+  }
+}
