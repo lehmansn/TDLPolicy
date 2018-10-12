@@ -1,0 +1,34 @@
+{
+  "policy_type": "interval",
+  "description": "Defines the time between two published values",
+  "policy_category": "message",
+  "input": [
+    {
+      "value": "name",
+      "datatype": "string",
+      "description": "Unique name of this policy"
+    },
+    {
+      "value": "value",
+      "datatype": "int",
+      "description": "Value as integer"
+    },
+    {
+      "value": "unit",
+      "datatype": "enum",
+      "description": "Time unit of the value",
+      "enum": [
+        "ms",
+        "sec",
+        "min",
+        "hour",
+        "day"
+      ]
+    }
+  ],
+  "example": {
+    "name": "interval",
+    "value": "1",
+    "unit": "sec"
+  }
+}
