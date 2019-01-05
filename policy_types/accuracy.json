@@ -12,10 +12,23 @@
       "value": "accuracy",
       "datatype": "number",
       "description": "Accuracy of the sensor publishing values to the topic"
+    },
+    {
+      "value": "unit",
+      "datatype": "enum",
+      "description": "Unit of accuracy",
+      "enum": [
+        "mm",
+        "cm",
+        "m",
+        "°C",
+        "F"
+      ]
     }
   ],
   "example": {
     "name": "accuracy",
-    "accuracy": 0.001
+    "accuracy": 0.001,
+    "unit": "°C"
   }
 }
