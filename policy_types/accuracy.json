@@ -1,0 +1,34 @@
+{
+    "policy_type": "accuracy",
+    "description": "Describes the accuracy of all published values of the topic",
+    "policy_category": "message",
+    "input": [
+      {
+        "value": "name",
+        "datatype": "string",
+        "description": "Name of this policy"
+      },
+      {
+        "value": "accuracy",
+        "datatype": "number",
+        "description": "Accuracy of sensor values"
+      },
+      {
+        "value": "unit",
+        "datatype": "enum",
+        "description": "Unit of accuracy",
+        "enum": [
+          "mm",
+          "cm",
+          "m",
+          "°C",
+          "°F"
+        ]
+      }
+    ],
+    "example": {
+      "name": "accuracy",
+      "accuracy": 0.001,
+      "unit": "°C"
+    }
+  }
